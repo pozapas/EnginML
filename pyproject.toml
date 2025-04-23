@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "EnginML"
-version = "0.1.0"
+version = "0.1.2"
 description = "Guided baseline ML workflows (regression / classification / clustering) for engineers"
 readme = "README.md"
 authors = [ {name = "Amir Rafe", email="amir.rafe@usu.edu"} ]
@@ -23,6 +23,10 @@ dependencies = [
     "scikit-learn>=1.0.0",
     "matplotlib>=3.4.0"
 ]
+
+[project.urls]
+Homepage = "https://github.com/pozapas/EnginML"
+Repository = "https://github.com/pozapas/EnginML"
 
 [project.optional-dependencies]
 full = [

@@ -1,9 +1,11 @@
 Metadata-Version: 2.4
 Name: EnginML
-Version: 0.1.0
+Version: 0.1.2
 Summary: Guided baseline ML workflows (regression / classification / clustering) for engineers
 Author-email: Amir Rafe <amir.rafe@usu.edu>
 License: MIT
+Project-URL: Homepage, https://github.com/pozapas/EnginML
+Project-URL: Repository, https://github.com/pozapas/EnginML
 Keywords: machine-learning,scikit-learn,explainability
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
@@ -25,7 +27,7 @@ Dynamic: license-file
 # EnginML
 
 <p align="center">
-  <img src="logo.png" alt="EnginML Logo" width="350"/>
+  <img src="https://raw.githubusercontent.com/pozapas/EnginML/master/logo.png" alt="EnginML Logo" width="350"/>
 </p>
 
 A Python package that provides guided baseline machine learning workflows (regression, classification, clustering) for engineers unfamiliar with programming. This package reproduces the tutorial in [*AI in Civil Engineering* (2025)](https://doi.org/10.1007/s43503-025-00053-x) by M. Z. Naser.

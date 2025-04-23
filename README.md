@@ -1,14 +1,14 @@
 # EnginML
 
 <p align="center">
-  <img src="logo.png" alt="EnginML Logo" width="350"/>
+  <img src="https://raw.githubusercontent.com/pozapas/EnginML/master/logo.png" alt="EnginML Logo" width="350"/>
 </p>
 
-A Python package that provides guided baseline machine learning workflows (regression, classification, clustering) for engineers unfamiliar with programming. This package reproduces the tutorial in [*AI in Civil Engineering* (2025)](https://doi.org/10.1007/s43503-025-00053-x) by M. Z. Naser.
+An educational Python package designed to help engineers and students learn and apply baseline machine learning workflows (regression, classification, clustering) even with minimal programming experience. This package reproduces the tutorial in [*AI in Civil Engineering* (2025)](https://doi.org/10.1007/s43503-025-00053-x) by M. Z. Naser.
 
 ## Overview
 
-This package is designed to make machine learning accessible to engineers with minimal programming experience. It provides:
+This educational package is designed to make machine learning accessible to engineers and students with minimal programming experience. It provides:
 
 - Simple, one-line functions for common ML tasks
 - Automatic data loading from CSV and Excel files
@@ -125,6 +125,20 @@ result = fit_regression(X, y, explain=False)
 ```python
 save_report(result, X, y, output_path='custom_path/my_report.html')
 ```
+
+## Future Features & Enhancements
+
+We're always thinking about how to make EnginML even more helpful for engineers learning ML! Here are some ideas we're exploring:
+
+- [ ] **More Model Options:** Add other popular and easy-to-understand models (e.g., Linear Regression, Logistic Regression, Decision Trees).
+- [ ] **Data Preprocessing Guidance:** Include optional, guided steps for common preprocessing tasks like handling missing values or scaling features.
+- [ ] **Interactive Visualizations:** Enhance reports with more interactive plots (e.g., using Plotly or Bokeh).
+- [ ] **Hyperparameter Tuning Basics:** Introduce a simple way to experiment with basic hyperparameter tuning for selected models.
+- [ ] **Time Series Forecasting:** Add a basic module for introductory time series analysis and forecasting tasks.
+- [ ] **Anomaly Detection:** Include simple methods for identifying outliers or anomalies in datasets.
+- [ ] **Model Comparison:** Allow users to easily train and compare the performance of multiple models on the same dataset.
+- [ ] **Code Generation Snippets:** Offer snippets of the underlying scikit-learn code used, helping users transition to more direct library usage.
+- [ ] **Expanded Documentation & Tutorials:** Add more examples and detailed explanations for different engineering domains.
 
 ## Requirements
 
